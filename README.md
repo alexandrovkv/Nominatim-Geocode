@@ -1,2 +1,2 @@
-# Nominatim-Geocode
-Nominatim direct/reverse geocode
+# Nominatim Geocode
+Console Nominatim direct/reverse geocode
