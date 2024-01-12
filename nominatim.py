@@ -141,7 +141,7 @@ def reverse_geocode(args):
         print(f"latitude longitude required", file=sys.stderr)
         return False
 
-    point = list(map(get_num, args))
+    point = list(map(float, args))
     
     result = reverse(point)
     if not result:
